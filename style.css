@@ -40,6 +40,67 @@ header {
   color: #fff;
 }
 
+/* banner */
+#banner {
+  background-image: url("./img/imgs.jpg");
+  height: 580px;
+  background-size: cover;
+  background-position: center;
+}
+.banner-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.banner-title,
+.banner-area p {
+  margin: 0;
+  padding: 0;
+}
+.banner-title {
+  font-size: 60px;
+  color: #ffff;
+  text-shadow: 4px 2px 2px #000;
+}
+.banner-area p {
+  font-size: 18px;
+  color: #ffff;
+  text-shadow: 4px 2px 2px #000;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+@keyframes animate-bar {
+  0% {
+    margin-left: 20px;
+    width: 10%;
+    background-color: rgb(7, 108, 175);
+  }
+  25% {
+    margin-right: 20px;
+  }
+  50% {
+    margin-left: 0;
+  }
+  75% {
+    margin-right: 0;
+  }
+  100% {
+    transition: all 3s linear;
+  }
+}
+
+.banner-bar {
+  width: 40%;
+  height: 3px;
+  background-color: rgb(186, 197, 203);
+  animation-name: animate-bar;
+  animation-duration: 1s;
+}
 /* menu mobile */
 .menuMobile {
   display: none;
