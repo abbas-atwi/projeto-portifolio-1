@@ -114,7 +114,7 @@ header {
   background-color: rgb(164, 88, 164);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 470px) {
   .menu ul {
     display: none;
   }
@@ -142,7 +142,7 @@ header {
     color: #fff;
   }
   .banner-title {
-    font-size: 45px;
+    font-size: 40px;
   }
   .banner-area p {
     max-width: 350px;
