@@ -90,7 +90,7 @@ header {
     margin-right: 0;
   }
   100% {
-    transition: all 3s linear;
+    transition: all 2s linear;
   }
 }
 
@@ -140,5 +140,17 @@ header {
   }
   .menu a {
     color: #fff;
+  }
+  .banner-title {
+    font-size: 45px;
+  }
+  .banner-area p {
+    max-width: 350px;
+    text-align: center;
+    line-height: 22px;
+    font-size: 15px;
+  }
+  .banner-bar {
+    width: 85%;
   }
 } ;
