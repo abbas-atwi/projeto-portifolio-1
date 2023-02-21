@@ -101,6 +101,34 @@ header {
   animation-name: animate-bar;
   animation-duration: 1s;
 }
+
+.widget-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  /* background-color: red; */
+}
+.widget-title h1 {
+  margin-bottom: 10px;
+}
+@keyframes animate-widget-bar {
+  0% {
+    width: 100%;
+  }
+
+  100% {
+    width: 40%;
+    transition: all 1s linear;
+  }
+}
+
+.widget-bar {
+  width: 40%;
+  height: 3px;
+  animation-name: animate-widget-bar;
+  animation-duration: 1s;
+  background-color: red;
+}
 /* menu mobile */
 .menuMobile {
   display: none;
@@ -152,5 +180,11 @@ header {
   }
   .banner-bar {
     width: 85%;
+  }
+  .projects {
+    padding-left: 10px;
+  }
+  .contact {
+    padding-right: 10px;
   }
 } ;
