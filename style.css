@@ -189,11 +189,16 @@ header {
 
 @keyframes animate-skills {
   0% {
-    width: 10%;
+    width: 0%;
+  }
+  50% {
+    width: 60%;
+    border-radius: 0px;
   }
   100% {
     width: 100%;
     border-radius: 0px 10px 0px 2px;
+    transition: all 2s linear;
   }
 }
 
@@ -205,5 +210,5 @@ header {
   border-radius: 0px 10px 0px 2px;
   background-color: rgb(230, 149, 0);
   animation-name: animate-skills;
-  animation-duration: 1s;
+  animation-duration: 2s;
 }
