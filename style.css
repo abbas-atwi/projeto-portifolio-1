@@ -183,8 +183,27 @@ header {
   }
   .projects {
     padding-left: 10px;
-  }
-  .contact {
     padding-right: 10px;
   }
-} ;
+}
+
+@keyframes animate-skills {
+  0% {
+    width: 10%;
+  }
+  100% {
+    width: 100%;
+    border-radius: 0px 10px 0px 2px;
+  }
+}
+
+.skills li {
+  display: block;
+  width: 100%;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 0px 10px 0px 2px;
+  background-color: rgb(230, 149, 0);
+  animation-name: animate-skills;
+  animation-duration: 1s;
+}
