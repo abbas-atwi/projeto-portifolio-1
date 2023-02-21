@@ -66,4 +66,18 @@ header {
   .logo {
     padding-left: 20px;
   }
+
+  .menu ul {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    background-color: #ddd;
+    position: absolute;
+    margin-top: 260px;
+    left: 0;
+    transition: 1s;
+  }
+  .menu a {
+    color: #000;
+  }
 } ;
