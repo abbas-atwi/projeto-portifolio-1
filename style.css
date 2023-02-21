@@ -126,7 +126,7 @@ header {
   width: 40%;
   height: 3px;
   animation-name: animate-widget-bar;
-  animation-duration: 1s;
+  animation-duration: 3s;
   background-color: red;
 }
 /* menu mobile */
