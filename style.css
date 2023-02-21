@@ -75,7 +75,7 @@ header {
     position: absolute;
     margin-top: 260px;
     left: 0;
-    transition: 1s;
+    transition: all 1s ease;
   }
   .menu a {
     color: #000;
