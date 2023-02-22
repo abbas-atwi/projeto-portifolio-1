@@ -185,6 +185,9 @@ header {
     padding-left: 10px;
     padding-right: 10px;
   }
+  .column {
+    flex-direction: column;
+  }
 }
 
 @keyframes animate-skills {
@@ -239,6 +242,7 @@ header {
 }
 .flex-small {
 }
+
 footer {
   display: flex;
   flex-direction: column;
