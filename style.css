@@ -196,7 +196,7 @@ header {
     border-radius: 0px;
   }
   100% {
-    width: 30%;
+    width: 38%;
     border-radius: 0px 10px 0px 2px;
     transition: all 2s linear;
   }
@@ -204,7 +204,7 @@ header {
 
 .skills li {
   display: block;
-  width: 30%;
+  width: 38%;
   margin: 5px;
   padding: 10px;
   border-radius: 0px 10px 0px 2px;
