@@ -189,6 +189,20 @@ header {
     flex-direction: column;
   }
 }
+@keyframes animate-skills-2 {
+  0% {
+    width: 38%;
+  }
+  50% {
+    width: 33%;
+    border-radius: 0px;
+  }
+  100% {
+    width: 38%;
+    transition: all 3s ease;
+    border-radius: 0px 10px 0px 2px;
+  }
+}
 
 @keyframes animate-skills {
   0% {
@@ -201,10 +215,14 @@ header {
   100% {
     width: 38%;
     border-radius: 0px 10px 0px 2px;
-    transition: all 2s linear;
+    transition: all 3s linear;
   }
 }
-
+.skills li:hover {
+  width: 38%;
+  animation-name: animate-skills-2;
+  animation-duration: 1s;
+}
 .skills li {
   display: block;
   width: 38%;
@@ -227,6 +245,7 @@ header {
   flex: 1 1 200px;
   height: 200px;
   margin: 5px;
+
   background-color: rgb(61, 61, 59);
 }
 .sk-area {
