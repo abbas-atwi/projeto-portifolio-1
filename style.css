@@ -142,7 +142,7 @@ header {
   background-color: rgb(164, 88, 164);
 }
 
-@media (max-width: 470px) {
+@media (max-width: 480px) {
   .menu ul {
     display: none;
   }
