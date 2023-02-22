@@ -219,6 +219,7 @@ header {
   margin-top: 20px;
   flex-wrap: wrap;
 }
+
 .skills-area div {
   flex: 1 1 200px;
   height: 200px;
@@ -233,9 +234,10 @@ header {
   color: #fff;
   text-transform: uppercase;
 }
+.projects-2 {
+  flex: 1;
+}
 .flex-small {
-  width: 100px;
-  background-color: red;
 }
 footer {
   display: flex;
