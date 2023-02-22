@@ -113,17 +113,17 @@ header {
 }
 @keyframes animate-widget-bar {
   0% {
-    width: 100%;
+    width: 100px;
   }
 
   100% {
-    width: 40%;
+    width: 60px;
     transition: all 1s linear;
   }
 }
 
 .widget-bar {
-  width: 40%;
+  width: 60px;
   height: 3px;
   animation-name: animate-widget-bar;
   animation-duration: 3s;
@@ -192,11 +192,11 @@ header {
     width: 0%;
   }
   50% {
-    width: 60%;
+    width: 20%;
     border-radius: 0px;
   }
   100% {
-    width: 100%;
+    width: 30%;
     border-radius: 0px 10px 0px 2px;
     transition: all 2s linear;
   }
@@ -204,13 +204,38 @@ header {
 
 .skills li {
   display: block;
-  width: 100%;
+  width: 30%;
   margin: 5px;
   padding: 10px;
   border-radius: 0px 10px 0px 2px;
   background-color: rgb(230, 149, 0);
   animation-name: animate-skills;
   animation-duration: 3s;
+}
+
+/* skills area */
+.skills-area {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.skills-area div {
+  flex: 1 1 303px;
+  height: 200px;
+  margin: 5px;
+  background-color: rgb(61, 61, 59);
+}
+.sk-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.flex-small {
+  width: 100px;
+  background-color: red;
 }
 footer {
   display: flex;
